@@ -1,0 +1,19 @@
+<html>
+    <head>
+        {%load static%}
+        <link rel="stylesheet" href={% static "polls/index.css" %}>    
+    </head>   
+     <body>
+        <h1>POLLS APP</h1>
+        {%if latest_Q%}
+           <ul>
+              {%for question in latest_Q%}
+                 <!-- <li><a href="/polls/{{question.id}}/"> {{question.q_text}}</a></li> -->
+                 <li><a href="{%url 'polls:detail' question.id%}">{{question.q_text}}</a></li>
+              {%endfor%}  
+           </ul>
+        {%else%}
+           <p>NO POLLS ARE AVAILABBLE!!!!</p> 
+        {%endif%}     
+    </body>
+</html>

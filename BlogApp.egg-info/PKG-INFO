@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: BlogApp
+Version: 1.0.0
+Summary: A simple Django app to conduct web-based polls.
+Home-page: https://www.ethans.co.in/
+Author: Ethans
+Author-email: sumaiyyajamadar2190@gmail.com
+License: BSD-3-Clause # Example license
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.9
+Requires-Dist: Django>=4.1
+
+----------------
+Polls
+----------------
+Polls is a django web app to conduct web_based polls. for each question , a Voter can choose from one of the many 
+number of answers.
+
+----------------
+Quick start
+---------------------------------------
+1 Add "polls" to your project by configuring INSTALLED APPS setting like this:: 
+INSTALLED APPS -[ 
+                 -------------
+				 'polls'
+				]
+				
+2. include the polls URLconl in your project urls.py like this::
+
+path('polls/' , include('polls,urls')),
+
+3. Run "python manage.py  to create the polls models.
+
+4. Start the development server and visit http://127.0.0.1:8000/admin/ to create a poll.
+(you will need the admin app enabled.)
+
+5. visit http://127.0.0.1:8001/polls/ to participate in poll.

@@ -1,0 +1,37 @@
+body{
+    font-family:Arial,sans-serif;
+    background-color: burlywood;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: rgba(243, 220, 188, 0.742);
+    color: rgb(5, 66, 66);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 20;
+    margin: 40px;
+}
+fieldset{
+    background-color: #edb2f5;
+    margin: 10;
+    padding: 15;
+    border-radius: 5px;
+}
+label{
+    color: rgb(31, 22, 2);
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    font-size: 10px;
+    color: blueviolet;
+}
+input{
+    background-color: chocolate;
+}

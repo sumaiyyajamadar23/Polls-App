@@ -1,0 +1,38 @@
+body{
+    font-family:Arial,sans-serif;
+    background-color: burlywood;
+    color: rgb(249, 121, 143);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: rgb(88, 35, 9);
+    color: rgb(155, 40, 121);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 20;
+    margin: 20px;
+    text-align: center;
+}
+ul li{
+    background-color: #ffff;
+    margin: 10;
+    padding: 15;
+    border-radius: 5px;
+}
+ul li a.hover{
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    font-size: 10px;
+    color: blueviolet;
+}
+div{
+    color: darkcyan;
+    text-align: center;
+}
